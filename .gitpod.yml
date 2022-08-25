@@ -1,0 +1,4 @@
+
+tasks:
+  - name: dev
+    command: python -m http.server 8080
