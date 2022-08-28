@@ -1,4 +1,5 @@
 
 tasks:
   - name: dev
-    command: python -m http.server 8080
+    init: yarn install
+    command: yarn start
