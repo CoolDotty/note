@@ -1,5 +1,5 @@
 
 tasks:
   - name: dev
-    init: yarn install
+    init: yarn set version stable; yarn install
     command: yarn start
